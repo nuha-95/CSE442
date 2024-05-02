@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['help', 'thankyou', 'yes']
+
+roboflow:
+  workspace: cse428
+  project: sign-language-4mz0u
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cse428/sign-language-4mz0u/dataset/2
